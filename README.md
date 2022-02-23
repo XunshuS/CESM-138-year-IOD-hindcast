@@ -8,11 +8,13 @@ Source:
         CESM_fc_dmi.nc  # forecasted indices
         
 dimensions:
+
         case = 20 ;        
         lead = 12 ;
         time = 552 ;
         
 variables:
+
         int64 case(case) ;  # number of ensemble members        
         int64 lead(lead) ;  # lead time        
         double time(time) ; # initial time        
@@ -21,4 +23,5 @@ variables:
                 dmi:_FillValue = NaN ;
                 
 Reference
+
 Song, X., Tang, Y., Liu, T., & Li, X. (2022). Predictability of Indian Ocean Dipole over 138 years using a CESM ensemble-prediction system. Journal of Geophysical Research: Oceans, 127, e2021JC018210. https://doi.org/10.1029/2021JC018210
