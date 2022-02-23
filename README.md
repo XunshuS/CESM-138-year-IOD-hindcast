@@ -1,6 +1,6 @@
 # CESM-138-year-IOD-hindcast
 
-This data contains the predicted indices of the Indian Ocean Dipole from the 136-year (1880-2018) retrospective hindcast experiment, by using a ensemble CESM prediction system
+This data contains the predicted indices of the Indian Ocean Dipole from the 138-year (1880-2017) retrospective hindcast experiment, by using a ensemble CESM prediction system
 
 ## CESM_fc_dmi.nc 
 forecasted dmi index   
